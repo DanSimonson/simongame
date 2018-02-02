@@ -1,18 +1,204 @@
-.simon-button {
-    height: 48px;
-    width: 48px;
+
+#content {
+    color: #000002;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    padding-top: 40px;
+    /*background-color: #e4e4e4;*/
+    font-family: 'Montserrat', sans-serif;
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .btn-game {
+    cursor: pointer;
+    margin-left: 33px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;    
+  }  
+  .btn-one {
+    background-color: #37FDFC;
+    display: inline-block;
+    box-shadow: 0 0 0 1px #37FDFC inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #37FDFC, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    -moz-transition: 0.15s;
+    -o-transition: 0.15s;
+    -webkit-transition: 0.15s;
+    transition: 0.15s; }
+    #blue:hover, #blue:focus {
+      background-color: #37FDFC;
+      box-shadow: 0 0 0 1px #37FDFC inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #37FDFC, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+      top: -2px; }
+    #blue:active, #blue-activated {
+      box-shadow: 0 0 0 1px #37FDFC inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+      background-color: #37FDFC;
+      -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+  }
+  
+  .btn-two {
+    background-color: #aa7243;
+    display: inline-block;
+    box-shadow: 0 0 0 1px #aa7243 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #aa7243, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    -moz-transition: 0.15s;
+    -o-transition: 0.15s;
+    -webkit-transition: 0.15s;
+    transition: 0.15s; }
+    #yellow:hover, #yellow:focus {
+      background-color: #aa7243;
+      box-shadow: 0 0 0 1px #aa7243 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #aa7243, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+      top: -2px; }
+    #yellow:active, #yellow-activated {
+      box-shadow: 0 0 0 1px #aa7243 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+      background-color: #aa7243;
+      -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+  }
+  
+  .btn-three {
+    background-color: #FF3000;
+    display: inline-block;
+    box-shadow: 0 0 0 1px #FF3000 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #FF3000, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    -moz-transition: 0.15s;
+    -o-transition: 0.15s;
+    -webkit-transition: 0.15s;
+    transition: 0.15s; }
+    #red:hover, #red:focus {
+      background-color: #ff451a;
+      box-shadow: 0 0 0 1px #FF3000 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #e62b00, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+      top: -2px; }
+    #red:active, #red-activated {
+      box-shadow: 0 0 0 1px #e62b00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+      background-color: #ff8366;
+      -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+  }
+  
+  .btn-four {
+    background-color: #7FFF00;
+    display: inline-block;
+    box-shadow: 0 0 0 1px #7FFF00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #7FFF00, 0 8px 0 1px rgba(0, 0, 0, 0.4), 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    -moz-transition: 0.15s;
+    -o-transition: 0.15s;
+    -webkit-transition: 0.15s;
+    transition: 0.15s; }
+    #green:hover, #green:focus {
+      background-color: #7FFF00;
+      box-shadow: 0 0 0 1px #7FFF00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 #7FFF00, 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+      top: -2px; }
+    #green:active, #green-activated {
+      box-shadow: 0 0 0 1px #7FFF00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+      background-color: #7FFF00;
+      -moz-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+  }
+  
+  .btn-game:focus, btn-game.focus {
+    /*outline: none !important;*/
+  }
+  #start {
+      width: 95px;;
+      height: 33px;
+      margin-left: 5px;
+  }
+  #start:hover {background-color: green}
+
+  #start:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
+  .btn-info {
+    position: relative;
+    background-color: blue;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 20px;
+    /*width: 200px;*/
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
     cursor: pointer;
 }
 
-#red {
-    background:red;
+.btn-info:after {
+    content: "";
+    background: blueviolet;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
 }
-#blue {
-    background:blue;
+
+.btn-info:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
 }
-#yellow {
-    background: yellow;
-}
-#green {
-    background: green;
-}
+  
+  .control-panel {
+    width: 65px;
+    /*border: 5px solid #ffffff;
+    padding-top: 10px;
+    padding-bottom: 25px;*/
+  }
+  
+  .display-panel {
+   height: 33px;
+    background-color: #2C3E50;
+    border-radius: 4px;
+    font-size: 22px;
+    color: #E74C3C;
+  }
+  #reset {
+    height: 33px;
+    margin-left: 5px;
+    background-color: yellow;
+  }
+  #reset:hover {background-color: yellow}
+
+  #reset:active {
+    background-color:yellow;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } 
+  .audios {
+    display: none;
+  }
+  .text-style {
+    color: rgba(0,0,0,0.6);
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+  }
+
+
+
+
+
+
+
+
