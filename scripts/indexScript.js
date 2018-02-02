@@ -138,16 +138,16 @@ var simonGame = function() {
       scenario = Math.floor((Math.random()*4)+1)-1;
       $('#start').removeClass("active");
       $("#start").text("START");
-    })
-    
-    
-    
-    
+    })   
   };
   
   $(document).ready(simonGame);
 
-/*$(document).ready(function() {
+/*------------------------------------------------------------
+-------------------------------------------------------------
+---------- old code -----------------------------------------
+
+$(document).ready(function() {
     $("#red").click(function() {simon.sendColor('RED')});
     $("#blue").click(function() {simon.sendColor('BLUE')});
     $("#yellow").click(function() {simon.sendColor('YELLOW')});
